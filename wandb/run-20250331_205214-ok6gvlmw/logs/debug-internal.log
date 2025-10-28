@@ -1,0 +1,7 @@
+{"time":"2025-03-31T20:52:14.61914286+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/mati/uni/nlp/ffrepo/ANLP-Sarcasm-IsThisLOSS/wandb/run-20250331_205214-ok6gvlmw/logs/debug-core.log"}
+{"time":"2025-03-31T20:52:14.723936118+02:00","level":"INFO","msg":"created new stream","id":"ok6gvlmw"}
+{"time":"2025-03-31T20:52:14.723994882+02:00","level":"INFO","msg":"stream: started","id":"ok6gvlmw"}
+{"time":"2025-03-31T20:52:14.724635635+02:00","level":"INFO","msg":"sender: started","stream_id":"ok6gvlmw"}
+{"time":"2025-03-31T20:52:14.724792694+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ok6gvlmw"}
+{"time":"2025-03-31T20:52:14.724747479+02:00","level":"INFO","msg":"handler: started","stream_id":"ok6gvlmw"}
+{"time":"2025-03-31T20:52:14.971068451+02:00","level":"INFO","msg":"Starting system monitor"}

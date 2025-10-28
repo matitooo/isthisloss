@@ -1,0 +1,24 @@
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_setup.py:_flush():67] Configure stats pid to 955859
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_setup.py:_flush():67] Loading settings from /home/mati/.config/wandb/settings
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_setup.py:_flush():67] Loading settings from /home/mati/uni/nlp/ffrepo/ANLP-Sarcasm-IsThisLOSS/wandb/settings
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/mati/uni/nlp/ffrepo/ANLP-Sarcasm-IsThisLOSS/wandb/run-20250331_205429-ff5qdk37/logs/debug.log
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/mati/uni/nlp/ffrepo/ANLP-Sarcasm-IsThisLOSS/wandb/run-20250331_205429-ff5qdk37/logs/debug-internal.log
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:init():761] calling init triggers
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:init():766] wandb.init called with sweep_config: {'architecture': 'LSTMFeatures', 'batch_size': 32, 'epochs': 100, 'h_size': 128, 'lr': 1e-05, 'n_layers': 1}
+config: {'lr': 0.0001, 'epochs': 100, 'n_layers': 1, 'h_size': 128, 'batch_size': 32, '_wandb': {}}
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:init():784] starting backend
+2025-03-31 20:54:29,419 INFO    MainThread:955859 [wandb_init.py:init():788] sending inform_init request
+2025-03-31 20:54:29,424 INFO    MainThread:955859 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-31 20:54:29,425 INFO    MainThread:955859 [wandb_init.py:init():798] backend started and connected
+2025-03-31 20:54:29,425 INFO    MainThread:955859 [wandb_run.py:_config_callback():1261] config_cb None None {'architecture': 'LSTMFeatures', 'batch_size': 32, 'epochs': 100, 'h_size': 128, 'lr': 1e-05, 'n_layers': 1}
+2025-03-31 20:54:29,426 INFO    MainThread:955859 [wandb_init.py:init():891] updated telemetry
+2025-03-31 20:54:29,432 INFO    MainThread:955859 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-31 20:54:29,915 INFO    MainThread:955859 [wandb_init.py:init():990] starting run threads in backend
+2025-03-31 20:54:30,154 INFO    MainThread:955859 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-31 20:54:30,154 INFO    MainThread:955859 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-31 20:54:30,155 INFO    MainThread:955859 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-31 20:54:30,155 INFO    MainThread:955859 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-31 20:54:30,158 INFO    MainThread:955859 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-31 20:54:42,967 INFO    MainThread:955859 [wandb_watch.py:_watch():71] Watching

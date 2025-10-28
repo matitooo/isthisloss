@@ -1,0 +1,18 @@
+program: main.py 
+method: bayes
+metric:
+  name: final_average_val_loss
+  goal: minimize
+parameters:
+  architecture:
+    value: value_from_input
+  lr:
+    values: [1e-6,1e-5, 1e-4, 1e-3]
+  epochs:
+    value: [100,500,1000]
+  n_layers:
+    values: [1,2]
+  h_size:  
+    values: [128,256,512]
+  batch_size:
+    values: [16,32,64]
