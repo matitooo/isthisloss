@@ -1,7 +1,13 @@
-#ANLP-Sarcasm-IsThisLoss
-Shared repo for group NLP assignment on sarcasm detection
+# ANLP-Sarcasm-IsThisLoss
+Final project for the Wise 24/25 class **"Advanced Natural Language Processing"** at Universität Potsdam
 
-The following project is a Sarcasm detection machine that combines an (BI)LSTM, an attention layer, and manually extracted features.
+## Group members
+- Evangelia Bourazani – evangelia.bourazani@uni-potsdam.de
+- Mattia D’Agostini – mattia.dagostini@uni-potsdam.de
+- Juan Pedro Danza Rovira – danzarovir@uni-potsdam.de
+- Ivan Samodelkin - ivan.samodelkin@uni-potsdam.de
+
+The following project is a Sarcasm detection machine that combines an (BI)LSTM, an attention layer, and manually extracted features. The dataset is from the 2022 SemEval competition, more specifically from task 6.
 
 You can check the requirements file to know which libraries are required.
 
@@ -23,7 +29,7 @@ computational cost.
 
 # How users can get started with the project.
 
-#USAGE
+## USAGE
 
 The available models are the following: 
 
@@ -48,18 +54,18 @@ python main.py —mode 'selected_mode' —model 'selected_model'
 where 'selected_mode' and 'selected_model' must be replaced with 
 one of the available parameters.
 
-    #TRAINING
+    TRAINING
 
     The 'training' command trains the chosen model with the optimal configuration
     and saves results as a Weights&Biases run.
 
-    #TUNING
+    TUNING
 
     The 'tuning' command retrieves a sweep configuration from the sweep_config.yaml 
     and performs hyperparameter tuning with Bayesian optimization on the selected model
     and saves results as a Weights&Biases run.
 
-    #TESTING
+    TESTING
 
     The 'testing' command  retrieves model weights from a pre-trained instance of the
     selected model stored in the weights folder and returns metrics by evaluating the model
@@ -162,6 +168,7 @@ Juan Pedro Danza Rovira – danzarovir@uni-potsdam.de
 Mattia D’Agostini – mattia.dagostini@uni-potsdam.de
 Evangelia Bourazani – evangelia.bourazani@uni-potsdam.de
 Ivan Samodelkin - ivan.samodelkin@uni-potsdam.de
+
 
 
 
